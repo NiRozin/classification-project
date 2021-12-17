@@ -14,7 +14,9 @@ def drop_features(dataset, columns=["education", "capital_loss", "capital_gain",
 
 
 def make_target(dataset):
-    dataset["target"] = np.where(dataset.salary.str.replace(" ", "") == "<=50K", 1, 0)
+    dataset["salary"] = dataset.salary.str.replace(" ", "")
+    dataset["salary"] = dataset.salary.str.replace(".", "")
+    dataset["target"] = np.where(dataset["salary"] == "<=50K", 1, 0)
     return dataset
 
 
