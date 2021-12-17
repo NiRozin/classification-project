@@ -56,7 +56,7 @@ Ou chamando o pip pelo diretório do ambiente
     $ <path_env>/<env_name>/bin/pip freeze > requirements.txt
 
 
-- Ativação: Em todos os comandos apresentados o '-n solar' pode ser suprimido se o ambiente estiver ativado:
+- Ativação: 
 
 
         $ source <path_env>/<env_name>/bin/activate
