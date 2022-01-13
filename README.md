@@ -2,9 +2,6 @@
 
 Resolução de problema de [classificação](http://archive.ics.uci.edu/ml/datasets/Census+Income)
 
-## Atenção:
-A parte do teste foi feita muito rápida e havia um erro no target afetando a avaliação final do algoritmo, verificando isso após o prazo, no dia seguinte o problema foi corrigido e as mudanças podem ser rastreadas pelo commit do git, a versão anterior do jupyter notebook com esse resultado pode ser visualizada (_notebooks/model_processing.ipynb_), mas se repŕocessada irá sobrescrever com o resultado corrigido, uma vez que a função foi alterada.
-
 
 ## Processamento
 
